@@ -4,16 +4,16 @@ import os
 
 bot = telebot.TeleBot(os.environ.get("BOT_TOKEN"))
 
-# ================== اطلاعات رو اینجا پر کن ==================
+# ================== اطلاعات ==================
 CHANNELS = [
     "@ShahinNajafi_Archive",
     "@SHN_RADiKAL",
 ]
 
-GROUP_ID = -1001249912970          # آیدی عددی گروه رو اینجا بذار
+GROUP_ID = -1001249912970
 GROUP_LINK = "https://t.me/+UUoXj4TNRyxmZTY0"
 
-MUSIC_FILE_ID = "CQACAgQAAxkBAAFQccRqagU2-hOs7furJOF0jbM43y01zQACTh0AAh81UFPXDBNcoL5aIT0E"   # file_id واقعی آهنگ رو اینجا بذار
+MUSIC_FILE_ID = "CQACAgQAAxkBAAFQccRqagU2-hOs7furJOF0jbM43y01zQACTh0AAh81UFPXDBNcoL5aIT0E"
 # ==========================================================
 
 def is_member(user_id, chat_id):
