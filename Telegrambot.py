@@ -13,7 +13,7 @@ CHANNELS = [
 GROUP_ID = -1001249912970
 GROUP_LINK = "https://t.me/+UUoXj4TNRyxmZTY0"
 
-MUSIC_FILE_ID = "CQACAgQAAxkBAAFQccRqagU2-hOs7furJOF0jbM43y01zQACTh0AAh81UFPXDBNcoL5aIT0E"
+MUSIC_FILE_ID = "CQACAgQAAxkBAAFQcZpqagL_-N9hmL17zmH4M5DM2JqniAACkhoAAv6GUFP879y_HRRPgz0E"
 # ==========================================================
 
 def is_member(user_id, chat_id):
