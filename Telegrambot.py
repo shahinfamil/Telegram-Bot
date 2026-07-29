@@ -2,20 +2,18 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
-bot = telebot.TeleBot("8689839891:AAFOugQELVKhJrKCDImACwQsuigvPicvX0c")  # توکن رباتت رو بذار
+bot = telebot.TeleBot(os.environ.get("BOT_TOKEN"))
 
-# ================== اینجا اطلاعاتت رو پر کن ==================
+# ================== اطلاعات رو اینجا پر کن ==================
 CHANNELS = [
-    "@ShahinNajafi_Archive",          # کانال اول (یا آیدی عددی مثل -100xxxxxxxxxx)
-    "@SHN_RADiKAL",          # کانال دوم
+    "@ShahinNajafi_Archive",
+    "@SHN_RADiKAL",
 ]
 
-GROUP = "https://t.me/+UUoXj4TNRyxmZTY0"      # گروه (یا آیدی عددی)
-# یا اگه گروه خصوصی هست آیدی عددی بذار مثل -100xxxxxxxxxx
+GROUP_ID = -1001249912970          # آیدی عددی گروه رو اینجا بذار
+GROUP_LINK = "https://t.me/+UUoXj4TNRyxmZTY0"
 
-
-
-MUSIC_FILE_ID = "b480f93-0455-49b9-ae6d-d776d76c761f"    # file_id آهنگی که گرفتی
+MUSIC_FILE_ID = "AAMCBQADGQEAAVBwpGpp9SZdf3eyd94blnnO-1Yi8YPjAALxGgACM__oVpR5U_4SY1TWAQAHbQADPQQ"   # file_id واقعی آهنگ رو اینجا بذار
 # ==========================================================
 
 def is_member(user_id, chat_id):
