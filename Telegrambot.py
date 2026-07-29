@@ -15,7 +15,7 @@ GROUP = "https://t.me/+UUoXj4TNRyxmZTY0"      # گروه (یا آیدی عددی
 
 
 
-MUSIC_FILE_ID = "CQACAgQAAxkBAAI..."    # file_id آهنگی که گرفتی
+MUSIC_FILE_ID = "b480f93-0455-49b9-ae6d-d776d76c761f"    # file_id آهنگی که گرفتی
 # ==========================================================
 
 def is_member(user_id, chat_id):
