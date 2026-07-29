@@ -10,7 +10,7 @@ CHANNELS = [
     "@SHN_RADiKAL",          # کانال دوم
 ]
 
-GROUP = "+UUoXj4TNRyxmZTY0"      # گروه (یا آیدی عددی)
+GROUP = "https://t.me/+UUoXj4TNRyxmZTY0"      # گروه (یا آیدی عددی)
 # یا اگه گروه خصوصی هست آیدی عددی بذار مثل -100xxxxxxxxxx
 
 
