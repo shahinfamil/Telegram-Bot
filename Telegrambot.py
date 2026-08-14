@@ -13,7 +13,7 @@ CHANNELS = [
 GROUP_ID = -1001249912970
 GROUP_LINK = "https://t.me/+UUoXj4TNRyxmZTY0"
 
-MUSIC_FILE_ID = "AAMCBAADGQEAAVHUqGp_PqWo0AAB1KgoLbFnYmcwpYgC6AACpR8AAuFS-VOvJw0FmHiFPgEAB20AAz0E"
+MUSIC_FILE_ID = "CQACAgQAAxkBAAFR1Khqfz6lqNAAAdSoKC2xZ2JnMKWIAugAAqUfAALhUvlTrycNBZh4hT49BA"
 # ==========================================================
 
 def is_member(user_id, chat_id):
@@ -56,7 +56,7 @@ def check_join(call):
 
     if check_all_memberships(user_id):
         bot.answer_callback_query(call.id, "عضویتت تایید شد ✅")
-        bot.send_audio(call.message.chat.id, MUSIC_FILE_ID, caption="آهنگ مورد نظرت 🎵")
+        bot.send_audio(call.message.chat.id, MUSIC_FILE_ID, caption="@ShahinNajafi_Archive")
         try:
             bot.delete_message(call.message.chat.id, call.message.message_id)
         except:
